@@ -24,15 +24,15 @@ This is spam!
 
 | Metric | Result |
 | :--- | :----: |
-| 'Accuracy' | '0.54' |
-| 'Accuracy with (total - no_classification)' | '0.97' |
-| 'Precision' | '0.99' |
-| 'Recall' | '0.90' |
-| 'F1 Score' | '0.94' |
+| Accuracy | 0.54 |
+| Accuracy with (total - no_classification) | 0.97 |
+| Precision | 0.99 |
+| Recall | 0.90 |
+| F1 Score | 0.94 |
 
 Explanation of *"Accuracy with (total - no_classification)"*:
 Due to the nature of the algorithm a string cannot be classified as either spam or ham if the probability for both is the same.
 Unfortunately this was the case for a lot of mails in the used dataset (total number of test cases: 1551; no classification: 685) which led to a low accuracy of ca. 54%.
 If we were to desregard these mails, the classifier achieves an accuracy of 97%.
 
-The precision of 99% is very good for a spam filter, because it means that almost no mails that are in fact not spam and could be important would be filtered out, leading to users not receiving important mails.
+The precision of 99% is very good for a spam filter, because it means that *almost no mails that are in fact not spam and could be important would be filtered out*, leading to users not receiving important mails.
