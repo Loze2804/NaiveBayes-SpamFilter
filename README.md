@@ -8,7 +8,7 @@ This was supposed to be achieved without using machine learning libraries or pac
 The dataset was obtained from [kaggle](https://www.kaggle.com/datasets/venky73/spam-mails-dataset).
 
 ## Results
-* Function classify() to classify any string as spam or ham
+* Function classify() to classify any string as spam or ham  
 Input:
 ```py
 classify('Hey, you won a car! Just call us and pick it up!')
